@@ -331,7 +331,7 @@ of code below the Schedule `<h2>` header below with
  
 <h2 id="content">Content</h2>
 
-[test]({{ page.root }}{% link _episodes/01-basics.md %}
+[test]({{ page.root }}{% link _episodes/01-basics.md %})
 
 <hr/> 
 
