@@ -331,8 +331,8 @@ of code below the Schedule `<h2>` header below with
  
 <h2 id="content">Content</h2>
 
-[April 2](01-basics.md)  
-[April 2](/_episodes/07-github)
+[link text]({{ page.root }}{% link _episodes/01-basics.md %})
+
 <hr/> 
 
 {% comment %}
