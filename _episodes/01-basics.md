@@ -1,5 +1,7 @@
 ---
-title: Automated Version Control
+layout: episode
+title: "Automated Version Control"
+id: "basics"
 teaching: 5
 exercises: 0
 questions:
