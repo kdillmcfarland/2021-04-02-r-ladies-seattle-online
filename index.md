@@ -329,9 +329,14 @@ of code below the Schedule `<h2>` header below with
 {% include custom/schedule.html %}
 <hr/>
 
-<h2 id="schedule">Content</h2>
+<h2 id="content">Content</h2>
 
-[April 2](_episodes/01-basics.md)
+<p>
+[April 2](_episodes/01-basics.md)  
+[April 9]()  
+[April 16]()  
+[April 23]()
+</p>
 <hr/>
 
 {% comment %}
