@@ -329,6 +329,10 @@ of code below the Schedule `<h2>` header below with
 {% include custom/schedule.html %}
 <hr/>
 
+<h2 id="schedule">Content</h2>
+
+[April 2](_episodes/01-basics.md)
+<hr/>
 
 {% comment %}
 SETUP
