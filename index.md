@@ -333,9 +333,9 @@ of code below the Schedule `<h2>` header below with
 
 <p>
 [April 2](_episodes/01-basics.md)  
-[April 9]()  
-[April 16]()  
-[April 23]()
+[April 9](_episodes/01-basics.md)  
+[April 16](_episodes/01-basics.md)  
+[April 23](_episodes/01-basics.md)
 </p>
 <hr/>
 
