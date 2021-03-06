@@ -307,7 +307,7 @@ of code below the Schedule `<h2>` header below with
  
 <h2 id="content">Content</h2>
 
-All content can be found on GitHub at <a href="https://github.com/kdillmcfarland/2021-04-02-r-ladies-seattle-online/tree/gh-pages/_episodes"></a>
+All content can be found on the <a href="https://github.com/kdillmcfarland/2021-04-02-r-ladies-seattle-online/tree/gh-pages/_episodes">2021-04-02-r-ladies-seattle-online GitHub</a>.
 
 <hr/> 
 
