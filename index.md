@@ -245,7 +245,7 @@ Edit the text to match who can attend the workshop. For instance:
 
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to anyone. While we are a local chapter, we welcome participants to this online event from anywhere.
+    This workshop is open to anyone but first registration will be given to R-Ladies members. While we are a local chapter, we welcome participants to this online event from anywhere around the world.
 </p>
 
 <hr/>
