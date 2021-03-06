@@ -227,29 +227,6 @@ Display the contact email address set in the configuration file.
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
 
-{% comment %}
-WHO CAN ATTEND?
-
-If you would like to specify who can attend the workshop,
-you can use the section below.
-
-Move the 'endcomment' tag above the beginning of the following
-<p> tag to make this section visible.
-
-Edit the text to match who can attend the workshop. For instance:
-- This workshop is open to affiliates to ABC university.
-- This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
-  for more information
-{% endcomment %}
-
-<p id="who-can-attend">
-    <strong>Who can attend?:</strong>
-    This workshop is open to anyone but first registration will be given to R-Ladies members. While we are a local chapter, we welcome participants to this online event from anywhere around the world.
-</p>
-
-<hr/>
-
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
@@ -317,7 +294,6 @@ week.
 For larger changes, a blank template for a 4-day workshop
 (useful for online teaching for instance) can be found in
 `_includes/custom-schedule.html`. Add the times, and what
-you will be teaching to this file. You may also want to add
 rows to the table if you wish to break down the schedule
 further. To use this custom schedule here, replace the block
 of code below the Schedule `<h2>` header below with
@@ -331,7 +307,7 @@ of code below the Schedule `<h2>` header below with
  
 <h2 id="content">Content</h2>
 
-[test]({{ page.root }}{% link _episodes/01-basics.md %})
+All content can be found on GitHub at <a href="https://github.com/kdillmcfarland/2021-04-02-r-ladies-seattle-online/tree/gh-pages/_episodes"></a>
 
 <hr/> 
 
