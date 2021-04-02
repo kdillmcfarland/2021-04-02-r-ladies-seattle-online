@@ -1,0 +1,534 @@
+Last login: Fri Apr  2 11:40:36 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Kims-MacBook-Pro:~ kim$ pwd
+/Users/kim
+(base) Kims-MacBook-Pro:~ kim$ ls
+Applications		Downloads		Music
+Creative Cloud Files	Dropbox			Pictures
+Desktop			Library			Public
+Documents		Movies			bin
+(base) Kims-MacBook-Pro:~ kim$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+(base) Kims-MacBook-Pro:~ kim$ 
+(base) Kims-MacBook-Pro:~ kim$ 
+(base) Kims-MacBook-Pro:~ kim$ git config --global user.email "kdillmcfarland@gmail.com"
+(base) Kims-MacBook-Pro:~ kim$ git config --list
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%C:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%a:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d=diff
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d=diff
+alias.master=checkout master
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d=diff
+alias.master=checkout master
+alias.spull=svn rebase
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d=diff
+alias.master=checkout master
+alias.spull=svn rebase
+alias.spush=svn dcommit
+:...skipping...
+core.excludesfile=~/.gitignore
+core.legacyheaders=false
+core.quotepath=false
+mergetool.keepbackup=true
+push.default=simple
+color.ui=auto
+color.interactive=auto
+repack.usedeltabaseoffset=true
+alias.s=status
+alias.a=!git add . && git status
+alias.au=!git add -u . && git status
+alias.aa=!git add . && git add -u . && git status
+alias.c=commit
+alias.cm=commit -m
+alias.ca=commit --amend
+alias.ac=!git add . && git commit
+alias.acm=!git add . && git commit -m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+alias.ll=log --stat --abbrev-commit
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+alias.d=diff
+alias.master=checkout master
+alias.spull=svn rebase
+alias.spush=svn dcommit
+alias.alias=!git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\     => \2/' (base) Kims-MacBook-Pro:~ kim$ git config --global core.autocrlf input
+(base) Kims-MacBook-Pro:~ kim$ git config --global core.editor "nano -w"
+(base) Kims-MacBook-Pro:~ kim$ pwd
+/Users/kim
+(base) Kims-MacBook-Pro:~ kim$ cd ~/Desktop
+(base) Kims-MacBook-Pro:Desktop kim$ pwd
+/Users/kim/Desktop
+(base) Kims-MacBook-Pro:Desktop kim$ mkdir planets
+(base) Kims-MacBook-Pro:Desktop kim$ cd planets
+(base) Kims-MacBook-Pro:planets kim$ pwd
+/Users/kim/Desktop/planets
+(base) Kims-MacBook-Pro:planets kim$ cd /Users/kim/Desktop/planets 
+(base) Kims-MacBook-Pro:planets kim$ pwd
+/Users/kim/Desktop/planets
+(base) Kims-MacBook-Pro:planets kim$ git init
+Initialized empty Git repository in /Users/kim/Desktop/planets/.git/
+(base) Kims-MacBook-Pro:planets kim$ ls
+(base) Kims-MacBook-Pro:planets kim$ ls -a
+.	..	.git
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+(base) Kims-MacBook-Pro:planets kim$ nano mars.txt
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mars.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Kims-MacBook-Pro:planets kim$ git add mars.txt
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   mars.txt
+
+(base) Kims-MacBook-Pro:planets kim$ git commit -m "start notes on Mars"
+[master (root-commit) dd4f36f] start notes on Mars
+ 1 file changed, 1 insertion(+)
+ create mode 100644 mars.txt
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+nothing to commit, working tree clean
+(base) Kims-MacBook-Pro:planets kim$ git log
+commit dd4f36f6d67bd72a4913c6cdd3785263710a0ab5 (HEAD -> master)
+Author: Kim Dill-McFarland <kdillmcfarland@gmail.com>
+Date:   Fri Apr 2 12:29:44 2021 -0700
+
+    start notes on Mars
+(base) Kims-MacBook-Pro:planets kim$ ls -a
+.		..		.git		mars.txt
+(base) Kims-MacBook-Pro:planets kim$ nano mars.txt
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   mars.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Kims-MacBook-Pro:planets kim$ git diff
+diff --git a/mars.txt b/mars.txt
+index df0654a..a146ef5 100644
+--- a/mars.txt
++++ b/mars.txt
+@@ -1 +1,2 @@
+ Cold and dry, but everything is my favorite color
++The two moons might be a problem for Wolfman
+(base) Kims-MacBook-Pro:planets kim$ git commit -m "add concern about Wolfman and moons"
+On branch master
+Changes not staged for commit:
+	modified:   mars.txt
+
+no changes added to commit
+(base) Kims-MacBook-Pro:planets kim$ git add *
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   mars.txt
+
+(base) Kims-MacBook-Pro:planets kim$ git commit -m "add concern about Wolfman and moons"
+[master 5cf91ae] add concern about Wolfman and moons
+ 1 file changed, 1 insertion(+)
+(base) Kims-MacBook-Pro:planets kim$ git log
+commit 5cf91ae37f6d16da416f8b84cd8699e5bab20e88 (HEAD -> master)
+Author: Kim Dill-McFarland <kdillmcfarland@gmail.com>
+Date:   Fri Apr 2 12:39:00 2021 -0700
+
+    add concern about Wolfman and moons
+
+commit dd4f36f6d67bd72a4913c6cdd3785263710a0ab5
+Author: Kim Dill-McFarland <kdillmcfarland@gmail.com>
+Date:   Fri Apr 2 12:29:44 2021 -0700
+
+    start notes on Mars
+(base) Kims-MacBook-Pro:planets kim$ 
+(base) Kims-MacBook-Pro:planets kim$ 
+(base) Kims-MacBook-Pro:planets kim$ 
+(base) Kims-MacBook-Pro:planets kim$ nano mars.txt
+(base) Kims-MacBook-Pro:planets kim$ cat mars.txt
+Cold and dry, but everything is my favorite color
+The two moons might be a problem for Wolfman
+I don't want to keep this
+(base) Kims-MacBook-Pro:planets kim$ git diff HEAD mars.txt
+diff --git a/mars.txt b/mars.txt
+index a146ef5..08ad91e 100644
+--- a/mars.txt
++++ b/mars.txt
+@@ -1,2 +1,3 @@
+ Cold and dry, but everything is my favorite color
+ The two moons might be a problem for Wolfman
++I don't want to keep this
+(base) Kims-MacBook-Pro:planets kim$ git diff HEAD~1 mars.txt
+diff --git a/mars.txt b/mars.txt
+index df0654a..08ad91e 100644
+--- a/mars.txt
++++ b/mars.txt
+@@ -1 +1,3 @@
+ Cold and dry, but everything is my favorite color
++The two moons might be a problem for Wolfman
++I don't want to keep this
+(base) Kims-MacBook-Pro:planets kim$ git diff HEAD~2 mars.txt
+fatal: ambiguous argument 'HEAD~2': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+(base) Kims-MacBook-Pro:planets kim$ git diff HEAD
+diff --git a/mars.txt b/mars.txt
+index a146ef5..08ad91e 100644
+--- a/mars.txt
++++ b/mars.txt
+@@ -1,2 +1,3 @@
+ Cold and dry, but everything is my favorite color
+ The two moons might be a problem for Wolfman
++I don't want to keep this
+(base) Kims-MacBook-Pro:planets kim$ git diff dd4f36f mars.txt
+diff --git a/mars.txt b/mars.txt
+index df0654a..08ad91e 100644
+--- a/mars.txt
++++ b/mars.txt
+@@ -1 +1,3 @@
+ Cold and dry, but everything is my favorite color
++The two moons might be a problem for Wolfman
++I don't want to keep this
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   mars.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Kims-MacBook-Pro:planets kim$ git checkout HEAD mars.txt
+Updated 1 path from 89fe336
+(base) Kims-MacBook-Pro:planets kim$ cat mars.txt
+Cold and dry, but everything is my favorite color
+The two moons might be a problem for Wolfman
+(base) Kims-MacBook-Pro:planets kim$ 
+(base) Kims-MacBook-Pro:planets kim$ 
+(base) Kims-MacBook-Pro:planets kim$ git checkout dd4f36f mars.txt
+Updated 1 path from 12125a8
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   mars.txt
+
+(base) Kims-MacBook-Pro:planets kim$ git checkout HEAD mars.txt
+Updated 1 path from 89fe336
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+nothing to commit, working tree clean
+(base) Kims-MacBook-Pro:planets kim$ pwd
+/Users/kim/Desktop/planets
+(base) Kims-MacBook-Pro:planets kim$ mkdir results
+(base) Kims-MacBook-Pro:planets kim$ cd results
+(base) Kims-MacBook-Pro:results kim$ pwd
+/Users/kim/Desktop/planets/results
+(base) Kims-MacBook-Pro:results kim$ nano result.csv
+(base) Kims-MacBook-Pro:results kim$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	./
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Kims-MacBook-Pro:results kim$ nano .gitignore
+(base) Kims-MacBook-Pro:results kim$ pwd
+/Users/kim/Desktop/planets/results
+(base) Kims-MacBook-Pro:results kim$ cd ..
+(base) Kims-MacBook-Pro:planets kim$ pwd
+/Users/kim/Desktop/planets
+(base) Kims-MacBook-Pro:planets kim$ nano .gitignore
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Kims-MacBook-Pro:planets kim$ git add .gitignore 
+(base) Kims-MacBook-Pro:planets kim$ git commit -m "create gitignore"
+[master e5b28cd] create gitignore
+ 1 file changed, 5 insertions(+)
+ create mode 100644 .gitignore
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+nothing to commit, working tree clean
+(base) Kims-MacBook-Pro:planets kim$ nano results/result.csv 
+(base) Kims-MacBook-Pro:planets kim$ git status
+On branch master
+nothing to commit, working tree clean
+(base) Kims-MacBook-Pro:planets kim$ ls -a
+.		..		.git		.gitignore	mars.txt	results
+(base) Kims-MacBook-Pro:planets kim$ git status --ignored
+On branch master
+Ignored files:
+  (use "git add -f <file>..." to include in what will be committed)
+
+	results/
+
+nothing to commit, working tree clean
+(base) Kims-MacBook-Pro:planets kim$ cd /Users/kim/Documents/_Hawn/AM-MDM/AM-MDM-TB 
+(base) Kims-MacBook-Pro:AM-MDM-TB kim$ nano .gitignore 
+(base) Kims-MacBook-Pro:AM-MDM-TB kim$ 
