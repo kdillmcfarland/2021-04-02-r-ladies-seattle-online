@@ -1,0 +1,119 @@
+mgerber@PC0Y242C MINGW64 ~
+$ git config --global user.name "Monica Gerber"
+
+mgerber@PC0Y242C MINGW64 ~
+$ git config --global user.email "mwgerber@gmail.com"
+
+mgerber@PC0Y242C MINGW64 ~
+$ git config --global core.autocrlf true
+
+mgerber@PC0Y242C MINGW64 ~
+$ git config --global core.editor "nano -w"
+
+mgerber@PC0Y242C MINGW64 ~
+$ git remote add origin https://github.com/monicagerber/planets.git
+fatal: not a git repository (or any of the parent directories): .git
+
+mgerber@PC0Y242C MINGW64 ~
+$ cd ~/Desktop
+
+mgerber@PC0Y242C MINGW64 ~/Desktop
+$ ls
+ 2021-04-09_setup.pptx   desktop.ini  '~$2021-04-09_setup.pptx'
+ desktop/                planets/
+
+mgerber@PC0Y242C MINGW64 ~/Desktop
+$ cd planets
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git remote add origin https://github.com/monicagerber/planets.git
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git remote -v
+origin  https://github.com/monicagerber/planets.git (fetch)
+origin  https://github.com/monicagerber/planets.git (push)
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 829 bytes | 138.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/monicagerber/planets.git
+ * [new branch]      main -> main
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git pull origin main
+From https://github.com/monicagerber/planets
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git push -u origin main
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git push
+Everything up-to-date
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git log
+commit 4a0070be1961fdb3809f8939f6a1dcca5c6abb42 (HEAD -> main, origin/main)
+Author: Monica Gerber <mwgerber@gmail.com>
+Date:   Fri Apr 9 11:20:39 2021 -0700
+
+    Ignore data files and the results folder
+
+commit c78dcac119e0ee44a7a2a1f2787f649877f97038
+Author: Monica Gerber <mwgerber@gmail.com>
+Date:   Fri Apr 9 11:18:17 2021 -0700
+
+    Add concerns about effects of Mars' moons on Wolfman
+
+commit 7f07638c3a702abf6c9898b7e879707b10ff2812
+Author: Monica Gerber <mwgerber@gmail.com>
+Date:   Fri Apr 9 11:17:22 2021 -0700
+
+    Start notes on Mars as a base
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 754 bytes | 27.00 KiB/s, done.
+From https://github.com/monicagerber/planets
+   4a0070b..7b4e0df  main       -> origin/main
+Updating 4a0070b..7b4e0df
+Fast-forward
+ README.md | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 README.md
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git pull
+Already up to date.
+
+mgerber@PC0Y242C MINGW64 ~/Desktop/planets (main)
+$ git pull origin main
+From https://github.com/monicagerber/planets
+ * branch            main       -> FETCH_HEAD
+Already up to date.
