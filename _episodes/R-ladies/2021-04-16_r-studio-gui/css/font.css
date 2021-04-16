@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.remark-code, .remark-inline-code {
+  font-family: 'Inconsolata', 'Quattrocento', monospace;
+}
+
+h1 {
+  font-family: "Quattrocento";
+}
+
+h2, h3, body {
+  font-family: "Quattrocento Sans";
+  color: #2f1412;
+}
+
+h2, h3 {
+  color: #ae802e;
+}
