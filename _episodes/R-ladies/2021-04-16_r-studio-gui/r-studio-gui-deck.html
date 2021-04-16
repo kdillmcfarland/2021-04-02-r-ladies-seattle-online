@@ -308,6 +308,29 @@ git push --set-upstream origin master
 
 ---
 
+# Cache credentials
+
+.panelset[
+.panel[.panel-name[Get PAT]
+
+* GitHub &gt; Settings &gt; Developer Settings &gt; Personal access tokens &gt; Generate new tokens
+* https://github.com/settings/tokens
+
+![](img/18.png)
+
+]
+
+.panel[.panel-name[Save in R Environment]
+
+* `usethis::edit_r_environ()`
+* THEN RESTART RSTUDIO!
+
+![](img/19.png)
+
+]
+]
+---
+
 # Editing .gitignore
 
 Say you want to create a directory called `graphs` and have Git ignore the files in the folder.
