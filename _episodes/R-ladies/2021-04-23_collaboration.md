@@ -1,4 +1,3 @@
----
 # Collaborating
 **Questions**:
 - How can I use version control to collaborate with other people?
@@ -10,6 +9,7 @@
 
 **Keypoints**:
 - `git clone` copies a remote repository to create a local repository with a remote called `origin` automatically set up.
+
 ---
 
 For the next step, get into pairs.  One person will be the "Owner" and the other
