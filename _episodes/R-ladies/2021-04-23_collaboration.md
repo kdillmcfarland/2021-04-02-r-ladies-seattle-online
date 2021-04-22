@@ -685,6 +685,7 @@ Cold and dry, but everything is my favorite color
 There is a helicopter on it now!
 The two moons may be a problem for Wolfman
 But the Mummy will appreciate the lack of humidity
+We removed the conflict on this line
 ~~~
 
 Then we can commit it, and push a copy of the branch to the remote repository:
@@ -695,10 +696,33 @@ $ git commit -m "More info about mars"
 $ git push -u origin change-mars
 ```
 
-We can also switch back to the `main` branch and make a different change there:
+```
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 383 bytes | 383.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'change-mars' on GitHub by visiting:
+remote:      https://github.com/vlad/planets/pull/new/change-mars
+remote:
+To github.com:vlad/planets.git
+ * [new branch]      change-mars -> change-mars
+Branch 'change-mars' set up to track remote branch 'change-mars' from 'origin'.
+```
+
+We can switch back to the `main` branch and check that our changes are not there:
 
 ```bash
 $ git checkout main
+$ cat mars.txt
+```
+
+We can also go to the Owner's repository and make a different change there:
+
+```bash
 $ nano mars.txt
 $ cat mars.txt
 ```
@@ -707,7 +731,16 @@ $ cat mars.txt
 Cold and dry, but everything is my favorite color
 The two moons may be a problem for Wolfman
 But the Mummy will appreciate the lack of humidity
+We removed the conflict on this line
 Add a line at the end
+```
+
+We will push these changes with our normal workflow:
+
+```bash
+$ git add mars.txt
+$ git commit -m "Final line for mars"
+$ git push
 ```
 
 Now, we have two changes to the same file which exist on different branches, and do not
